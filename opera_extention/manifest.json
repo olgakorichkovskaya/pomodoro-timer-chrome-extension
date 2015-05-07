@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Pomadoro timer",
+  "description": "\"Pomodoro\" is Italian for tomato. The technique works by getting you to structure your work in 25-minute sessions, each separated by a short break. Each 25-minute session is one \"pomodoro.\" When you complete one, take a five-minute break before embarking on the next.http://pomodorotechnique.com",
+ "icons": {"16": "icon-16.png", "32": "icon-32.png", "48": "icon48.png", "128": "icon128.png"},
+ "version": "1.0",
+  "background": {"scripts": ["background.js" ]},
+  "permissions": [ "notifications", "tab" ],
+  "browser_action": { "default_icon": "icon-32.png",
+                      "default_title": "Pomadoro timer. Click to start/stop pomodoro session" },
+  "web_accessible_resources": [ "icon-48.png" ],
+  "developer": { "name": "Olga Korychkovska", "url": "https://github.com/olgakorichkovskaya" }
+}
